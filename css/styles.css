@@ -185,6 +185,7 @@ body {
 .btn:focus,
 .btn.current {
   background-color: var(--active-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* --------------About us------------ */
@@ -236,6 +237,7 @@ body {
   width: calc((100% - 72px) / 4);
   background-color: var(--main-color-title);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-dscr {
@@ -304,6 +306,12 @@ body {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
+.gallery-card {
+  padding: 32px 16px;
+  border: 1px solid var(--secondary-color-text);
+  border-top: none;
+}
 .btns-list {
   justify-content: center;
   margin-bottom: 72px;
@@ -318,6 +326,7 @@ body {
 }
 .gallery-item {
   width: calc((100% - 48px) / 3);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .btns {
   padding: 12px 24px;
@@ -339,6 +348,8 @@ body {
   background-color: var(--active-color);
   color: var(--main-color-title);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .footer-title {
