@@ -390,8 +390,10 @@ body {
 
 .gallery-card {
   padding: 32px 16px;
-  border: 1px solid var(--secondary-color-text);
   border-top: none;
+}
+.gallery-item:hover {
+  border: 1px solid var(--secondary-color-text);
 }
 .btns-list {
   justify-content: center;
