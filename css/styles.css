@@ -83,6 +83,7 @@ body {
 .header {
   display: flex;
   border-bottom: 1px solid var(--secondary-color-text);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .nav {
   display: flex;
@@ -401,6 +402,7 @@ body {
 /* -------------- PORTFOLIO ------------ */
 .header-border {
   border-bottom: 1px solid var(--secondary-color-text);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .gallery {
   padding-top: 96px;
@@ -411,6 +413,9 @@ body {
   padding: 32px 16px;
   border: 1px solid #f4f4fd;
   border-top: none;
+}
+.gallery-link {
+  display: block;
 }
 .gallery-link:is(:hover, :focus) {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
